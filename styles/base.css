@@ -46,3 +46,41 @@ main {
     display: grid;
     grid-template-columns: repeat(3, 2fr);
 }
+
+section.card {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+section.card h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+section.card img {
+    width: 70px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+section.card p {
+    font-family:Parastoo;
+    font-size: 1em;
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
