@@ -14,28 +14,19 @@ header h4{
     background-color: #595d61;
     height: 50%;
 }
+.navigation { 
+  display: flex;
+  align-items: center;
+ }
 
-nav{
-    background-color: #595d61;
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    padding: 10px;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: white;
+.navigation a {
+    display: grid   ;
+    color: #eee;
+    padding: 0.75rem;
     text-decoration: none;
-    margin-right: 40px;
-    margin-left: 40px;
-}
+    text-align: center;
+    flex: auto;
+} 
 
 .main{
     display: flex;
