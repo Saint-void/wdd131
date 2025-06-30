@@ -43,8 +43,7 @@ nav ul {
 
 main {
     width: 150px;
-    display: grid;
-    grid-template-columns: repeat(3, 2fr);
+    display: flex;
 }
 
 section.card {
@@ -52,7 +51,7 @@ section.card {
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 20px;
-    margin: 10px;
+    margin: 20px;
     text-align: center;
 }
 
@@ -73,6 +72,27 @@ section.card p {
     font-family:Parastoo;
     font-size: 1em;
     color: #333;
+}
+section.card2 {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 40%;
+    text-align: center;
+}
+
+section.card2 h2 {
+    font-family:Parastoo;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+section.card2 li {
+    font-family: 'Merriweather', serif;
+    font-size: 0.7em;
+    color: #333;
+    margin-bottom: 10px;
 }
 
 footer {
