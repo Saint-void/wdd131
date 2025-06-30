@@ -42,7 +42,7 @@ nav ul {
 }
 
 main {
-    width: 150px;
+    max-width: 150px;
     display: flex;
 }
 
