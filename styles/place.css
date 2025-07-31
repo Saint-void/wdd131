@@ -1,0 +1,76 @@
+:root {
+  --red: #e53935;
+  --green: #43a047;
+  --white: #ffffff;
+  --gray: #f5f5f5;
+  --dark: #222;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: var(--gray);
+  color: var(--dark);
+}
+
+header {
+  background-color: var(--red);
+  color: var(--white);
+  padding: 1rem;
+  text-align: center;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.card {
+  background-color: var(--white);
+  padding: 1rem;
+  border-left: 8px solid var(--green);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  background-color: var(--green);
+  color: var(--white);
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.weather-heading::after {
+  content: " ☁️";
+  font-size: 1.2rem;
+  margin-left: 0.4rem;
+}
+
+@media (min-width: 768px) {
+  .card-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .card {
+    width: 45%;
+  }
+}

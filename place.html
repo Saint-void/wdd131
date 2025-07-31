@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Madagascar Page</title>
+  <link rel="stylesheet" href="styles/place.css" />
+  <script src="scripts/place.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Madagascar</h1>
+  </header>
+
+  <main>
+    <section class="hero">
+      <picture>
+        <source srcset="images/madagascar-large.jpg" media="(min-width: 768px)">
+        <img src="images/madagascar-small.jpg" alt="Lemur in Madagascar">
+      </picture>
+    </section>
+
+    <section class="card-container">
+      <div class="card data">
+        <h2>Data</h2>
+        <ul>
+          <li>Capital: Antananarivo</li>
+          <li>Population: 29 million</li>
+          <li>Language: Malagasy, French</li>
+          <li>Currency: Ariary (MGA)</li>
+        </ul>
+      </div>
+
+      <div class="card weather">
+        <h2 class="weather-heading">Weather</h2>
+        <ul>
+          <li>Temperature: <span id="temp">10</span> °C</li>
+          <li>Wind Speed: <span id="windSpeed">5</span> km/h</li>
+          <li>Wind Chill: <span id="windChill">N/A</span></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>©<span id="year"></span> 🌴 Rubia Magdelena Francesco 🌴 Madagascar</p>
+    <p>Last Modification: <span id="lastModified"></span></p>
+  </footer>
+</body>
+</html>
