@@ -1,0 +1,59 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #cecccc;
+    }
+
+    header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* optional but helps vertical alignment */
+    width: 100%; /* ensure full width */
+    background-color: rgb(46, 44, 44);
+    color: white;
+    padding: 10px;
+    box-sizing: border-box; /* ensures padding doesn't exceed full width */
+    }
+
+    nav ul{
+        display: flex;
+        list-style: none;
+        gap: 20px;
+    }
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        transition-duration: 0.1s;
+    }
+    nav ul li a:hover {
+        color: rgb(201, 198, 198);
+    }
+
+    main h1{
+        text-align: center;
+    }
+
+    main {
+        max-width: 800%;
+        margin: 0 auto;
+    }
+    
+    .figure {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 10px;
+        padding: 20px;
+        justify-items: center;
+        text-align: center;
+    }
