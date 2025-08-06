@@ -8,7 +8,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #cecccc;
+  background-color: #ffffff;
 }
 
 header {
@@ -58,7 +58,7 @@ main h1 {
 }
 
 .figure figure {
-  background-color: #fff;
+  background-color: #e2d8d8;
   padding: 10px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -76,8 +76,9 @@ main h1 {
 .figure img {
   width: 100%;
   height: auto;
-  border-radius: 6px;
+  border-radius: 2px;
   display: block;
+  box-shadow: 0 2px 25px rgba(26, 25, 25, 0.87);
 }
 
 img.fade-in {
