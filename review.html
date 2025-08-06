@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Thank You!</title>
+  <link rel="stylesheet" href="styles/form.css" />
+</head>
+<body>
+  <header>
+    <h1>Thank You for Your Review!</h1>
+  </header>
+
+  <main style="text-align:center; padding: 2rem;">
+    <p>Your review has been submitted successfully.</p>
+    <p>You have submitted <span id="review-count">0</span> review(s).</p>
+    <a href="form.html">Leave Another Review</a>
+  </main>
+
+  <footer>
+    <p>&copy;2024 🌸 Rubia Magdelena Francesco 🌸<br> Madagascar<br>
+    Last Modification: <span id="lastModified"></span></p>
+  </footer>
+
+  <script>
+    const count = Number(localStorage.getItem("reviewCount")) || 0;
+    localStorage.setItem("reviewCount", count + 1);
+    document.getElementById("review-count").textContent = count + 1;
+    document.getElementById("lastModified").textContent = document.lastModified;
+  </script>
+</body>
+</html>
