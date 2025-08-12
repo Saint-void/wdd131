@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Vortex Clothing</title>
+    <meta name="description" content="Welcome to Vortex Clothing — the hub for streetwear drops, collections, and exclusive collabs.">
+    <meta name="author" content="Sogolo Donaldson">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar" role="navigation">
+            <a href="index.html" class="nav-logo">Vortex</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="collections.html" class="nav-link">Collections</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Vortex</h1>
+                <p class="hero-tagline">Where streetwear meets identity.</p>
+            </div>
+        </section>
+
+        <!-- Site Purpose -->
+        <section class="site-purpose content-section">
+            <h2>Our Mission</h2>
+            <p>
+                Vortex is the central hub for showcasing our latest clothing drops, streetwear collections, and exclusive collabs.
+                We pull people into a new wave of fashion — bold, unique, and expressive. Here, you can shop our latest looks,
+                read our fashion blog, and get updates on exclusive events.
+            </p>
+        </section>
+        
+        <!-- Featured Collection -->
+        <section class="featured content-section">
+            <h2>Featured Drops</h2>
+            <div class="featured-grid">
+                <div class="featured-card">
+                    <img src="images/featured-hoodie.jpg" alt="A stylish black hoodie" loading="lazy">
+                    <h3>The Ascension Hoodie</h3>
+                    <a href="collections.html" class="btn">View Collection</a>
+                </div>
+                <div class="featured-card">
+                    <img src="images/featured-tee.jpg" alt="A graphic t-shirt" loading="lazy">
+                    <h3>Nebula Graphic Tee</h3>
+                    <a href="collections.html" class="btn">View Collection</a>
+                </div>
+                <div class="featured-card">
+                    <img src="images/featured-hat.jpg" alt="A black snapback hat" loading="lazy">
+                    <h3>Singularity Snapback</h3>
+                    <a href="collections.html" class="btn">View Collection</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter Signup -->
+        <section class="newsletter-signup content-section">
+            <div id="form-container">
+                <form id="notify-form">
+                    <h2>Join the Vortex</h2>
+                    <p>Get notified about exclusive drops, collabs, and events.</p>
+                    <label for="email" class="sr-only">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                    <button type="submit" class="btn">Notify Me</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <p>&copy; <span id="year"></span> Vortex Clothing. All rights reserved.</p>
+        <p><a href="references.html">References</a></p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+</html>
